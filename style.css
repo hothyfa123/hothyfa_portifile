@@ -502,22 +502,12 @@ body {
   color: var(--white);
   background-image: linear-gradient( var(--deg, 90deg), var(--carolina-blue) 0%, var(--royal-blue-light) 100%);
 }
-.about .skills .progress .baro h3{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 2rem;
-  padding:1rem 2rem;
-  color: var(--white);
-  background-image: linear-gradient( var(--deg, 90deg), var(--carolina-blue) 0%, var(--royal-blue-light) 100%);
-}
+
 
 .about .skills .progress .bar span{
   font-weight: normal;
 }
-.about .skills .progress .baro span{
-  font-weight: normal;
-}
+
 
 .about .skills .progress .bar:nth-child(1) h3{
   width: 95%;
@@ -534,19 +524,19 @@ body {
 .about .skills .progress .bar:nth-child(4) h3{
   width: 80%;
 }
-.about .skills .progress .baro:nth-child(5) h3{
+.about .skills .progress .bar:nth-child(5) h3{
   width: 95%;
 }
 
-.about .skills .progress .baro:nth-child(6) h3{
+.about .skills .progress .bar:nth-child(6) h3{
   width: 80%;
 }
 
-.about .skills .progress .baro:nth-child(7) h3{
+.about .skills .progress .bar:nth-child(7) h3{
   width: 65%;
 }
 
-.about .skills .progress .baro:nth-child(8) h3{
+.about .skills .progress .bar:nth-child(8) h3{
   width: 80%;
 }
 
