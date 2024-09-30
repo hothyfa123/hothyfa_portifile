@@ -1327,13 +1327,7 @@ body {
 @media (max-width: 768px) {
 
   /* ضبط الحاوية لتكون في المنتصف */
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /* لتوسيط النصوص */
-  }
+ 
 
   /* توسيط الأزرار */
   .btn {
@@ -1364,8 +1358,8 @@ body {
 
 
   /* توسيط العناصر في أقسام أخرى حسب الحاجة */
-  .about .container,
-  .cta .container {
+  .about ,
+  .cta  {
     text-align: center;
     align-items: center;
     justify-content: center;
