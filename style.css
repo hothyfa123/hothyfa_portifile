@@ -1361,10 +1361,7 @@ body {
   }
 
   /* التأكد من ضبط المسافات */
-  .contact-list, .navbar-list {
-    justify-content: center;
-    gap: 10px; /* تصغير المسافات بين العناصر */
-  }
+
 
   /* توسيط العناصر في أقسام أخرى حسب الحاجة */
   .about .container,
