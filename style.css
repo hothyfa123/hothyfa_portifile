@@ -1323,3 +1323,55 @@ body {
   .cta-banner { margin-block-start: -120px; }
 
 }
+/* كود CSS للهواتف المحمولة */
+@media (max-width: 768px) {
+
+  /* ضبط الحاوية لتكون في المنتصف */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* لتوسيط النصوص */
+  }
+
+  /* توسيط الأزرار */
+  .btn {
+    margin: 0 auto; /* يضع الأزرار في الوسط */
+    display: block;
+  }
+
+  /* التأكد من أن النصوص في المنتصف */
+  h1, h2, h3, p {
+    text-align: center;
+  }
+
+  /* تغيير حجم النصوص لتناسب الشاشة */
+  h1 {
+    font-size: 2.5rem; /* يمكنك ضبط حجم النص هنا */
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+
+  /* التأكد من ضبط المسافات */
+  .contact-list, .navbar-list {
+    justify-content: center;
+    gap: 10px; /* تصغير المسافات بين العناصر */
+  }
+
+  /* توسيط العناصر في أقسام أخرى حسب الحاجة */
+  .about .container,
+  .cta .container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
