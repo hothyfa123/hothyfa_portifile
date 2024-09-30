@@ -525,19 +525,19 @@ body {
   width: 80%;
 }
 .about .skills .progress .bar:nth-child(5) h3{
-  width: 95%;
+  width: 100%;
 }
 
 .about .skills .progress .bar:nth-child(6) h3{
-  width: 80%;
+  width: 100%;
 }
 
 .about .skills .progress .bar:nth-child(7) h3{
-  width: 65%;
+  width: 80%;
 }
 
 .about .skills .progress .bar:nth-child(8) h3{
-  width: 80%;
+  width: 90%;
 }
 
 
