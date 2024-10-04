@@ -22,6 +22,30 @@ const addEventOnElem = function (elem, type, callback) {
  * navbar toggle
  */
 
+window.onscroll = () =>{
+  if(window.innerWidth < 991){
+     menu.classList.remove('fa-times');
+     header.classList.remove('active');
+     document.body.classList.remove('active');
+  }
+
+  document.querySelectorAll('section').forEach(sec =>{
+
+     let top = window.scrollY;
+     let offset = sec.offsetTop - 150;
+     let height = sec.offsetHeight;
+     let id = sec.getAttribute('id');
+
+     if(top >= offset && top < offset + height){
+        document.querySelectorAll('.header .navbar a').forEach(links =>{
+           links.classList.remove('active');
+           document.querySelector('.header .navbar a[href*='+ id +']').classList.add('active')
+        });
+     };
+
+  });
+
+}
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navbarToggler = document.querySelector("[data-nav-toggler]");
