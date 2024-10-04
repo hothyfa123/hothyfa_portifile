@@ -24,6 +24,8 @@
     
     <!-- aos css link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 </head>
 
@@ -311,7 +313,7 @@
         - #BLOG
       -->
 
-    <section class="section blog" id="blog" aria-label="blog">
+<section class="section blog" id="blog" aria-label="blog">
   <div class="container">
 
     <!-- عنوان فرعي -->
@@ -320,109 +322,96 @@
     <!-- العنوان الرئيسي -->
     <h2 class="h2 section-title text-center">Achievements & Certifications</h2>
 
-    <!-- قائمة الشهادات -->
-    <ul class="blog-list">
+    <!-- Swiper Container -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
 
-      <!-- الشهادة الأولى -->
-      <li>
-        <div class="blog-card">
+        <!-- الشهادة الأولى -->
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+              <img src="https://images.credly.com/size/680x680/images/e646f624-ca3d-4917-9e90-16a051497bdb/image.png" width="1180" height="800" loading="lazy"
+                alt="Certificate in Web Development" class="img-cover">
+              <div class="card-badge">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <time class="time" datetime="2023-05-10">10th May 2023</time>
+              </div>
+            </figure>
 
-          <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-            <img src="https://images.credly.com/size/680x680/images/e646f624-ca3d-4917-9e90-16a051497bdb/image.png" width="1180" height="800" loading="lazy"
-              alt="Certificate in Web Development" class="img-cover">
-
-            <div class="card-badge">
-              <ion-icon name="calendar-outline"></ion-icon>
-
-              <time class="time" datetime="2023-05-10">10th May 2023</time>
+            <div class="card-content">
+              <h3 class="h3">
+                <a href="#" class="card-title">Web Development Certification</a>
+              </h3>
+              <p class="card-text">
+                Certified in advanced web development techniques, including front-end and back-end technologies.
+              </p>
+              <a href="#" class="card-link">View Details</a>
             </div>
-          </figure>
-
-          <div class="card-content">
-
-            <h3 class="h3">
-              <a href="#" class="card-title">Web Development Certification</a>
-            </h3>
-
-            <p class="card-text">
-              Certified in advanced web development techniques, including front-end and back-end technologies.
-            </p>
-
-            <a href="#" class="card-link">View Details</a>
-
           </div>
-
         </div>
-      </li>
 
-      <!-- الشهادة الثانية -->
-      <li>
-        <div class="blog-card">
+        <!-- الشهادة الثانية -->
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+              <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" width="1180" height="800" loading="lazy"
+                alt="Certificate in Data Analysis" class="img-cover">
+              <div class="card-badge">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <time class="time" datetime="2022-11-15">15th November 2022</time>
+              </div>
+            </figure>
 
-          <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-            <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" width="1180" height="800" loading="lazy"
-              alt="Certificate in Data Analysis" class="img-cover">
-
-            <div class="card-badge">
-              <ion-icon name="calendar-outline"></ion-icon>
-
-              <time class="time" datetime="2022-11-15">15th November 2022</time>
+            <div class="card-content">
+              <h3 class="h3">
+                <a href="#" class="card-title">Data Analysis Certification</a>
+              </h3>
+              <p class="card-text">
+                Completed a comprehensive course on data analysis, covering statistical tools and business intelligence.
+              </p>
+              <a href="#" class="card-link">View Details</a>
             </div>
-          </figure>
-
-          <div class="card-content">
-
-            <h3 class="h3">
-              <a href="#" class="card-title">Data Analysis Certification</a>
-            </h3>
-
-            <p class="card-text">
-              Completed a comprehensive course on data analysis, covering statistical tools and business intelligence.
-            </p>
-
-            <a href="#" class="card-link">View Details</a>
-
           </div>
-
         </div>
-      </li>
 
-      <!-- الشهادة الثالثة -->
-      <li>
-        <div class="blog-card">
+        <!-- الشهادة الثالثة -->
+        <div class="swiper-slide">
+          <div class="blog-card">
+            <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+              <img src="https://images.credly.com/size/680x680/images/5cf962f0-d790-4652-ad72-d6ad8fa8791c/image.png" width="1180" height="800" loading="lazy"
+                alt="Certificate in Project Management" class="img-cover">
+              <div class="card-badge">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <time class="time" datetime="2021-09-30">30th September 2021</time>
+              </div>
+            </figure>
 
-          <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-            <img src="https://images.credly.com/size/680x680/images/5cf962f0-d790-4652-ad72-d6ad8fa8791c/image.png" width="1180" height="800" loading="lazy"
-              alt="Certificate in Project Management" class="img-cover">
-
-            <div class="card-badge">
-              <ion-icon name="calendar-outline"></ion-icon>
-
-              <time class="time" datetime="2021-09-30">30th September 2021</time>
+            <div class="card-content">
+              <h3 class="h3">
+                <a href="#" class="card-title">Project Management Certification</a>
+              </h3>
+              <p class="card-text">
+                Gained expertise in managing complex projects, team coordination, and delivering results on time.
+              </p>
+              <a href="#" class="card-link">View Details</a>
             </div>
-          </figure>
-
-          <div class="card-content">
-
-            <h3 class="h3">
-              <a href="#" class="card-title">Project Management Certification</a>
-            </h3>
-
-            <p class="card-text">
-              Gained expertise in managing complex projects, team coordination, and delivering results on time.
-            </p>
-
-            <a href="#" class="card-link">View Details</a>
-
           </div>
-
         </div>
-      </li>
 
-    </ul>
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Add Navigation Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
 
   </div>
 </section>
+
 
     </article>
   </main>
@@ -664,7 +653,8 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- aos js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
@@ -676,5 +666,34 @@
    });
 
 </script>
+    <script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    }
+  });
+</script>
+
 </body>
 </html>
