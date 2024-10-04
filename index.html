@@ -642,11 +642,19 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- aos js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 <script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+    <script>
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,  // عدد الشهادات المعروضة في الشاشة الواحدة
-    spaceBetween: 30,  // المسافة بين العناصر
-    loop: true,  // السماح بالتكرار في التمرير
+    slidesPerView: 3,
+    spaceBetween: 30,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -656,29 +664,12 @@
       clickable: true,
     },
     breakpoints: {
-      640: {
-        slidesPerView: 1, // عرض شهادة واحدة على الأجهزة الصغيرة
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2, // عرض شهادتين على الأجهزة المتوسطة
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 3, // عرض 3 شهادات على الأجهزة الأكبر
-        spaceBetween: 50,
-      },
-    },
+      1000: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      }
+    }
   });
-</script>
-
-<script>
-
-   AOS.init({
-      duration:800,
-      delay:300
-   });
-
 </script>
    
 </body>
